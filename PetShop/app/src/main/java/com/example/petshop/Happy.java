@@ -1,0 +1,14 @@
+package com.example.petshop;
+
+import java.util.Date;
+
+public class Happy extends Mood {
+    public Happy(Date date) {
+        super(date);
+    }
+
+    @Override
+    public void setDate(Date date) {
+        super.setDate(date);
+    }
+}
